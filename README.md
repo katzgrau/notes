@@ -1,6 +1,6 @@
 # Notes
 
-This is an application that can be used for using easy-to-build websites for multiple users. It was originally developed as a project at NJIT by Kenny Katzgrau. Progress continued while at Zinkk Inc of NJ. It then underwent a longstanding [ownership standoff](http://www.connectsj.com/daniel/WebID.JPG). It's all good though, it's now free for all.
+This is an application that facilitates easy-to-build websites for multiple users. It was originally developed as a project at NJIT by Kenny Katzgrau. Progress continued while at Zinkk Inc of NJ. It then underwent a longstanding [ownership standoff](http://www.connectsj.com/daniel/WebID.JPG). It's all good though, it's now free for all.
 
 ## Contributors
 
