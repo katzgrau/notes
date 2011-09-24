@@ -1,14 +1,14 @@
 # Notes
 
-This is an application that can be used for using easy-to-build websites for multiple users. It was originally developed as a project at NJIT by Kenny Katzgrau. Progress continued while at Zinkk Inc of NJ. It then underwent a longstanding ownership standoff. It is now free for all.
+This is an application that can be used for using easy-to-build websites for multiple users. It was originally developed as a project at NJIT by Kenny Katzgrau. Progress continued while at Zinkk Inc of NJ. It then underwent a longstanding [ownership standoff](http://www.connectsj.com/daniel/WebID.JPG). It's all good though, it's now free for all.
 
 ## Contributors
 
-John Bellone
-Dan Boston
-John Crepezzi
-Kenny Katzgrau
-Tarcisio Nunes
+* [John Bellone](http://thoughtlessbanter.com/)
+* [Dan Boston](http://programmerdan.com)
+* [John Crepezzi](http://seejohncode.com)
+* [Kenny Katzgrau](http://codefury.net)
+* [Tarcisio Nunes](http://tarcisionunes.com/)
 
 ## License (MIT)
 
