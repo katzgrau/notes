@@ -1,0 +1,316 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000 url(images/back_all2.gif);
+}
+
+body, th, td, input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+
+h1, h2, h3 {
+	color: #2C5C89;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #2C5C89;
+}
+
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	font-size: 1.1em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+a {
+	text-decoration: underline;
+	color: #2C5C89;
+}
+
+a:hover {
+	border: none;
+	text-decoration: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #2C5C89;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	color: #2C5C89;
+}
+
+hr {
+	display: none;
+}
+
+#main
+{
+background: url(images/back_all.gif) repeat-x;
+}
+
+
+/* Header */
+
+#header {
+	width: 758px;
+	margin: 0 auto;
+	height: 194px;
+}
+
+#menu {
+	height: 35px;
+	width: 718px;
+	padding-left: 14px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 33px;
+	width: 115px;
+	margin-right: 1px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 20px;
+    text-align: center;
+}
+
+#menu a:hover {
+    height: 33px;
+	color: #F5F3C1;
+	background: url(images/buttons_r.gif) repeat-x;
+}
+
+
+
+/* Logo */
+
+#logo {
+	width: 758px;
+	height: 141px;
+	margin: 0 auto;
+}
+
+
+#logo h1 {
+	padding-top: 40px;
+	padding-left: 20px;
+	color: #ffffff;
+	font-size: 24px;
+}
+
+#logo h2 {
+	font-style: italic;
+	font-size: 10px;
+	padding-left: 20px;
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#logo a {
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 820px;
+	margin: 0 auto;
+	border-top: none;
+	padding-top: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 561px;
+	padding-left: 10px;
+}
+
+.back
+{
+background: url(images/table_back.gif) repeat-y
+}
+
+.top
+{
+background: url(images/top.gif) no-repeat top
+}
+
+.bottom
+{
+background: url(images/bottom.gif) no-repeat bottom;
+padding: 30px;
+padding-top: 50px;
+}
+
+#content H4 a
+{
+text-transform: uppercase;
+text-decoration: underline;
+color: #830404;
+font-family: Georgia, "Times New Roman", Times, serif
+}
+
+#content H2
+{
+text-transform: uppercase;
+color: #830404;
+font-size: 20px;
+padding-bottom: 10px;
+font-family: Georgia, "Times New Roman", Times, serif
+}
+
+#content a
+{
+color: #830404;
+text-decoration: none;
+}
+
+#content a:hover
+{
+color: #830404;
+text-decoration: underline;
+}
+
+#content a:visited
+{
+color: #830404;
+}
+
+#content ol, #content ul
+{
+margin-left: 30px;
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	width: 229px;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	list-style: none;
+
+}
+
+
+#sidebar2 {
+	width: 229px;
+}
+
+#sidebar2 h2 {
+	background: url(images/title.gif) no-repeat left top;
+	height: 27px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 12px;
+}
+
+#sidebar2 .r1
+{
+border: 1px solid #C4BE71;
+background: #EFE1CE;
+padding: 5px;
+}
+
+#sidebar2 ul
+{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+#sidebar2 li a {
+	border: none;
+	background: url(images/small.gif) no-repeat 4px 4px;
+	padding-left: 20px;
+	color: #830404;
+}
+
+#sidebar2 li a:hover {
+	border: none;
+	background: url(images/small2.gif) no-repeat 4px 4px;
+	padding-left: 20px;
+	color: #FF8401;
+}
+
+
+/* Footer */
+#footer
+{
+height: 64px;
+background: url(images/footer.gif) repeat-x;
+padding-top: 20px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 9px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+#footer a
+{
+color: #FFFFFF
+}

@@ -1,0 +1,438 @@
+body
+{
+  background: #e4e4e4 url(../images/background.gif) repeat-x top left;
+	margin: 0px; 
+	padding: 0px;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+}
+
+#head
+{
+  background: #e4e4e4 url(../images/head_empty.gif) no-repeat top left;
+	width: 747px;
+	height: 117px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+#head #title
+{
+	float: left;
+ 	font-size: 30px;
+	color: #F0EBE7;
+	padding: 35px 0px 0px 30px;
+
+}
+
+#body_wrapper
+{
+  background: url(../images/body_cont.jpg) repeat-y top left;
+	margin: 0px auto;
+	width: 747px;
+	display: block;
+}
+
+
+#body
+{
+  background: url(../images/body_top.jpg) no-repeat top left;
+	float: left;
+	padding: 10px 20px 0px 20px;
+	min-height: 343px;
+	display: block;
+}
+
+#end_body
+{
+  background: url(../images/footer.jpg) no-repeat top left;
+	margin: 0px auto;
+	width: 747px;
+	height: 37px;
+	display: block;
+}
+
+.clearer
+{
+  clear: both;
+	height: 1px;
+}
+
+#all
+{
+  width: 707px;
+	float: left;
+	padding: 0px;
+	background: url(../images/all_middle.gif) repeat-y top left;
+}
+
+#all .top
+{
+  background: url(../images/all_top.gif) no-repeat top left;
+	width: 707px;
+	height: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#all .bottom
+{
+  background: url(../images/all_bottom.gif) no-repeat bottom left;
+	width: 707px;
+	height: 21px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#left
+{
+  width: 538px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/left_middle.gif) repeat-y top left;
+}
+
+#left .top
+{
+  background: url(../images/left_top.gif) no-repeat top left;
+	width: 538px;
+	height: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#left .bottom
+{
+  background: url(../images/left_bottom.gif) no-repeat bottom left;
+	width: 538px;
+	height: 21px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#right
+{
+  width: 169px;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/right_middle.gif) repeat-y top left;
+}
+
+#right .top
+{
+  background: url(../images/right_top.gif) no-repeat top left;
+	padding: 0px;
+	margin: 0px;
+	width: 169px;
+	height: 18px;
+}
+
+#right .bottom
+{
+  background: url(../images/right_bottom.gif) no-repeat bottom left;
+	padding: 0px;
+	margin: 0px;
+	width: 169px;
+	height: 21px;
+}
+
+.content 
+{
+  padding: 0px 15px;
+}
+
+#footer
+{
+  margin: 0 auto; 
+	width: 747px;
+	text-align: center;
+	color: #B05128;
+	font-weight: bold;
+}
+
+#footer a
+{
+ color: #B05128;
+}
+
+#right ul 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#right ul li 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+}
+
+#right ul a 
+{
+	display: block;
+	width: 125px;
+	background: #c7b8a4;
+	color: #000;
+	padding: 3px;
+	padding-left: 10px;
+	text-decoration: none;
+	margin: 0px;
+	border: 0px;
+}
+
+#right ul a:hover 
+{
+	color: #FFFFFF;
+	background: #822C0F;
+}
+
+/* Navigation */
+
+#menu 
+{
+  float: right;
+	margin: 80px 20px 0px 0px;
+}
+
+#menu ul 
+{
+	margin: 0;
+	padding: 0;
+	white-space : nowrap;
+}
+
+#menu ul li 
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float:left;
+	text-align: center;
+}
+
+#menu ul li a 
+{
+	color : #fff;
+	background-color: transparent;
+	text-decoration : none;
+	font-weight: bold;
+	display: block;
+	border-style:none;
+}
+
+#menu ul li a:link, #menu ul li a:visited 
+{
+	background-image: url(../images/menu_item2.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 94px;
+	line-height: 26px;
+	padding-top: 7px;
+}
+
+#menu ul li a:hover, #menu ul li a:active 
+{
+	background-image: url(../images/menu_item2.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -33px;
+	height: 29px;
+	width: 94px;
+	line-height: 29px;
+	padding-top: 4px;
+}
+
+#menu ul li.active a:hover, #menu ul li.active a:active, #menu ul li.active a:link, #menu ul li.active a:visited 
+{
+	background-image: url(../images/menu_item2.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -66px;
+	height: 29px;
+	width: 94px;
+	line-height: 29px;
+	padding-top: 4px;
+	color: #B05128;
+}
+
+
+/*  Headers  */
+h1 
+{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #D96B11;
+	background-color: transparent;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+h2 
+{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #333;
+	background-color: transparent;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 
+{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #76b7d7;
+	background-color: transparent;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+h4 
+{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #333;
+	background-color: transparent;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+h5 
+{
+	color: #9ad5f3;
+	background-color: transparent;
+	padding: 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+h6 
+{
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	color: #D96B11;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+/* HTML Tags */
+
+code
+{
+  display: block;
+	margin: 5px;
+	padding: 5px;
+	color: #ad4c21;
+	border: 1px dashed;
+	background: #f0ebe7;
+	font-family: Courier, 'Courier New', 'Andale Mono', Monaco, monospace;
+
+}
+
+a
+{
+  color: #AD4C21;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+	padding-bottom: 0px;
+}
+
+a:hover
+{
+	color: #000;
+}
+
+hr
+{
+  border: 0px;
+  border-bottom: 1px #F0EBE7 dashed;
+	height: 1px;
+}
+
+#left hr, #all hr
+{
+  margin: 10px 0px;
+}
+
+form
+{
+  margin: 0px;
+	padding: 0px;
+}
+
+form .item
+{
+  clear: left;
+	border-top: 1px solid #EEE;
+	margin: 3px;
+}
+
+form .label
+{
+  float: left;
+	clear: left;
+	width: 150px;
+}
+
+input, textarea, select
+{
+  color: #AD4C21;
+	border: 1px solid;
+	background: #F0EBE7;
+	margin: 3px;
+	padding: 2px;
+}
+
+blockquote {
+	margin: 5px;
+  background: transparent url(../images/quotes.gif) left top no-repeat;
+	padding-left: 37px;
+}
+
+blockquote[cite]:after {
+	content: "Quote from: " attr(cite);
+	display: block;
+	border-top: 1px solid #999;
+	color: #999;
+	margin: 1em 0 0;
+	padding: .5em 0 0;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+del 
+{
+  color: #800;
+	text-decoration: line-through;
+}
+
+dt
+{
+  font-weight: bold;
+	font-size: 1.05em;
+	color: #ad4c21;
+}
+
+dd 
+{
+  margin-left: 15px;
+}
+
+/* adds a space and then a graphic after any external (i.e. off-site) links */
+a[target]:after{
+	content: " " url(../images/externalpage.gif);
+}

@@ -1,0 +1,20 @@
+#loginBox {
+	position:absolute;
+	height:125px;
+	width:300px;
+	z-index:100;
+	background-color:#ffffff;
+	border:ridge 6px gray;
+}
+
+#usernameTextBox {
+	width: 150px;
+}
+
+#passwordTextBox {
+	width: 150px;
+}
+
+#loginError {
+	color: red;
+}

@@ -1,0 +1,193 @@
+/* CSS Document */
+  body {
+      margin: 0;
+      padding: 85px 0;
+      background: rgb(39,39,39) url('images/sun.png') no-repeat top center;
+      font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+      color: rgb(77,77,77);
+      font-size: 13px;
+      text-align: center;
+      position: relative;
+  }
+  a {
+      color: rgb(77,77,77);
+      text-decoration: underline;
+  }
+  a:hover {
+      text-decoration: none;
+      color: rgb(23,23,23);
+  }
+  #header {
+      width: 700px;
+      height: 147px;
+      background: rgb(102,148,194) url('images/header.png') no-repeat;
+      position: relative;
+      padding: 50px 10px 10px 40px;
+      margin: 0 auto;
+      text-align: left;
+  }
+  #header h2 a{
+      color: rgb(255,255,255);
+      font-size: 45px;
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+  }
+  #menu-top {
+      position: absolute;
+      bottom: 38px;
+      right: 38px;
+      margin: 0;
+      padding: 0;
+  }
+  * html #menu-top { /*IE6 only*/
+      bottom: 37px;
+  }
+  #menu-top li {
+      list-style: none;
+      float: left;
+      margin: 0 0 0 12px;
+      padding: 0;
+      line-height: 32px;
+      height: 33px;
+      width: 111px;
+  }
+  #menu-top li a {
+      display: block;
+      height: 33px;
+      background: rgb(235,235,235) url('images/top-link.png') no-repeat;
+      color: rgb(39,39,39);
+      text-align: center;
+      text-decoration: none;
+  }
+  #menu-top li a:hover {
+      background:  rgb(39,39,39) url('images/top-link.png') no-repeat -111px 0;
+      color: rgb(255,255,255);
+  }
+  #contain {
+      width: 730px;
+      margin: 0 auto;
+      padding: 10px;
+      background: rgb(255,255,255);
+  }
+  #left {
+      float: left;
+      width: 534px;
+      text-align: left;
+  }
+  #right {
+      float: right;
+      width: 186px;
+      text-align: left;
+
+  }
+  .cleaner {
+      width: 1px;
+      height: 1px;
+      font-size: 1px;
+      line-height: 1px;
+      clear: both;
+  }
+  #footer {
+      width: 750px;
+      height: 51px;
+      margin: 0 auto;
+      padding: 35px 0 0 0;
+      background: url('images/footer.png') no-repeat;
+      font-weight: bold;
+      color: rgb(136,136,136)
+  }
+  #left h1 {
+      border-bottom: 1px solid rgb(234,234,234);
+      margin: 10px;
+      padding: 0;
+      font-size: 24px;
+      font-weight: normal;
+  }
+  #left h2 {
+      font-size: 18px;
+      margin: 10px;
+      padding: 0;
+      font-weight: normal;
+  }
+  #left h3 {
+      font-size: 16px;
+      margin: 10px;
+      padding: 0;
+      font-weight: normal;
+  }
+  #left p {
+      margin: 0 10px 20px 10px;
+      line-height: 165%;
+  }
+  #right .gray {
+      background: rgb(239,239,239);
+      border-top: 1px solid rgb(209,209,209);
+      border-left: 1px solid rgb(209,209,209);
+      padding: 5px 20px;
+      margin: 10px 0;
+  }
+  #right p {
+      margin: 0 0 15px 0;
+      padding: 0;
+      line-height: 150%;
+  }
+  #search {
+      margin: 5px 0;
+      padding: 0;
+      width: 150px;
+  }
+  #search input {
+      width: 140px;
+      height: 24px;
+      border-top: 1px solid rgb(209,209,209);
+      border-left: 1px solid rgb(209,209,209);
+      border-right: 0;
+      border-bottom: 0;
+      background: rgb(255,255,255);
+      margin: 2px 0;
+      padding-left: 10px;
+      color: rgb(77,77,77);
+  }
+  #search .submit {
+      border-bottom: 4px solid rgb(209,209,209);
+      height: 28px;
+      width: 150px;
+      cursor: pointer;
+      padding-left: 0;
+  }
+  #search .submit:hover {
+      border-bottom: 4px solid rgb(159,159,159);
+  }
+  #search p {
+      margin: 0;
+      padding: 0;
+  }
+  #right h3 {
+      margin: 17px 0 7px 0;
+      padding: 0;
+      font-size: 14px;
+      font-variant: small-caps;
+  }
+  #right .out {
+      margin: 10px 10px 10px 20px;
+  }
+  .links {
+      /* margin: 5px 10px 5px 22px; */
+      padding: 0;
+  }
+  .links li {
+      margin: 5px 0;
+      padding: 0;
+      list-style: none;
+  }
+  .links li a {
+      color: rgb(145,144,144);
+      text-decoration: none;
+      font-weight: bold;
+  }
+  .links li a:hover {
+      color: rgb(20,20,20);
+      text-decoration: underline;
+  }

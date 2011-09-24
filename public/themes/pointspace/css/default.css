@@ -1,0 +1,160 @@
+/** 
+ * Copyright 2008 Breezy New Media
+ * =====================================
+ * Czech Language:
+ * #zmena zarovnani textu, obsahu:
+ *   -- trida .left, .right, .center zpusobi zarovnani obsahu doleva, doprava, nebo vycentruje, 
+ *      @napr. odstavec centrovany na stred: <p class="center">text odstavce zarovnany na stredu</p>
+ *   -- uziti .left, resp. .right tridy na obrazek zrusi jeho odsazeni zleva, resp. zprava
+ *   -- zarovnavat lze i pomoci obtekani prvku (vyuziti float vlastnosti)
+ *        1) umisteni doleva, obtekani prvku zprava = pomoci tridy .fl
+ *        2) umisteni doprava, obtekani prvku zleva = pomoci tridy .fr
+ *
+ * #zmena velikosti textu
+ *   -- vetsi pismo nez standartni pomoci tridy .big, napr. <p class="big">Vetsi text</p>
+ *   -- mensi pismo nez standartni pomoci tridy .small, napr. <h3 class="small">Mensi velikost daneho nadpisu</h3>
+ *   
+ * #pridani casove ikonky k textu
+ *   -- pomoci tridy ico a ico-date, pouziti: <p class="ico ico-date">Datum vcetne casove ikonky</p>     
+ */     
+
+/* -- Basics -- */
+html, body, div, p, li, ul, ol, form, fieldset, h1, h2, h3, h4, h5, h6   { margin: 0; padding: 0; list-style: none; }
+
+body		      { font: normal 62.8%/1.3 Arial, Helvetica, sans-serif; background: #000 url('../images/pozadi2.jpg'); color: #3e3533; padding: 60px 0; }
+a			        { color: #af0731; }
+a:hover	      { text-decoration: underline !important; color: #000;}
+a img   	    { border:0; }
+img           { border: 1px #d5d2d2 solid; }
+input
+select,
+textarea      { font-family: Arial, lucida, sans-serif; font-size: 1em; vertical-align: middle; }
+input, 
+textarea	    { background: #8f8c8c; padding: 2px 0; margin: 0; border: 1px solid #676464; }
+button	      { vertical-align: middle; margin: 0; padding: 0; height: 18px; border: none; text-decoration: underline; font-weight: bold; color: #00CCFF; cursor: pointer; }
+.submit       { width: auto !important; overflow: visible; background-color: #312b2a; border: 1px solid #000 !important; padding: 0 5px; color: #fff; font-weight: bold; }
+
+h1	{ font-size: 2em; }
+h2	{ font-size: 1.6em; }
+h3	{ font-size: 1.4em; }
+h4	{ font-size: 1.2em; }
+h5	{ font-size: 1.1em; }
+h6	{ font-size: 1em; }
+p   { line-height: 20px; }
+
+h1, h2, h3, h4, h5, h6  { color: #3e3533; }
+
+table           { border-collapse: collapse; width: 100%; }
+table th        { text-align: left; }
+table td.right  { padding-left: 5px; }
+table th.right  { padding-left: 5px; }
+table td.left   { padding-right: 5px; }
+table th.left   { padding-right: 5px; }
+
+blockquote  { margin: 0; padding: 10px 20px; color: #333; line-height: 1.6; font-family: Georgia, serif; }
+fieldset    { border: 0 !important; }
+
+/* -- Icons list -- */
+.ico              { padding-left: 15px; }
+.ico-breezy       { background: url('../images/ico/ico-breezy3.gif') 2px 0 no-repeat; padding: 2px 0 1px 25px; }
+.ico-breezy:hover { background-position: 2px -18px; }
+.ico-date         { background: url('../images/ico/ico-date.gif') 0 50% no-repeat; }
+
+/* -- User friendly features -- */
+.hidden   { display: none; }
+
+/* -- Basics layout -- */
+#view     { width: 900px; margin: 0 auto; }
+#head     { font-size: 1.2em; height: 202px; position: relative; }
+#content  { font-size: 1.2em; }
+#foot     { font-size: 1.2em; clear: both; }
+
+/* -- Logo constructs -- */
+h1        { font-family: Georgia, "New York CE", utopia, serif; font-size: 3em; font-weight: normal; margin-top: 40px; }
+h1 a      { text-decoration: none; color: #fff !important; }
+
+#logo *     { color: #eaafa3; text-decoration: none !important; }
+#logo h2    { font-weight: normal; font-size: 1.2em; }
+#logo .block{ position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; text-decoration: none; }
+
+/* -- Main classes -- */
+.fr		    { float: right !important; }
+.fl		    { float: left !important; }
+.clear    { clear: both !important; }
+.right	  { text-align: right !important; }
+.left		  { text-align: left !important; }
+.center	  { text-align: center !important; }
+.last		  { margin-right: 0 !important; margin-bottom: 0 !important; border-bottom: none !important; }
+.small	  { font-size: .90em; }
+.big      { font-size: 1.5em; }
+.item     { margin-bottom: 1.5em; border-bottom: 1px #d8d8d8 solid; clear: both; }
+.info     { font-size: .95em; margin: 2px 0 6px !important; }
+.col1     { width: 49%; float: left; }
+.col2     { width: 49%; float: right; }
+img.left  { margin-left: 0 !important; }
+img.right { margin-right: 0 !important; }
+
+/* -- Layout constructs -- */
+#logo       { position: relative; padding: 0 50px; height: 149px; overflow: hidden; background: url('../images/bg-logo.png') 0 0 no-repeat; }
+#mainMenu   { height: 46px; padding: 0 25px; background: #312b2a url('../images/bg-main-menu.gif') repeat-x; border: 1px #8a817e solid; border-width: 1px 0 6px; }
+#content    { padding: 30px 0 25px; overflow: hidden; height: 100%; background: #fff url('../images/bg-content.gif') repeat-y; }
+#foot       { height: 68px; background: #312b2a url('../images/bg-foot.jpg') no-repeat; }
+
+/* -- Main Menu -- */
+#mainMenu ul                { position: relative; height: 46px; }
+#mainMenu li                { position: relative; float: left; padding-right: 7px; }
+#mainMenu li a              { display: block; float: left; color: #b59d97; height: 30px; padding: 16px 15px 0 20px; }
+#mainMenu li a span         { position: absolute; left: 8px; top: 20px; width: 6px; height: 8px !important; overflow: hidden; background: url('../images/ico/ico-menu_item.gif') no-repeat; }
+#mainMenu li.active         { position: relative; top: 7px; background: url('../images/bg-main-menu_shadow.gif') 100% 0 no-repeat; }
+#mainMenu li.active a       { padding-top: 9px; text-decoration: none !important; color: #000 !important; background: #fff url('../images/bg-main-menu_active.gif') repeat-x; border-bottom: 6px #fff solid; }
+#mainMenu li.active a span  { top: 12px; background-position: 0 -8px; }
+#mainMenu li a:hover        { color: #fff; }
+
+/* -- Search block -- */
+#search { position: absolute; right: 12px; bottom: 16px; width: 270px; text-align: right; }
+#search .button { width: 204px; height: 14px; border: none; background: url('../images/bg-input.gif') no-repeat; padding: 5px 10px; }
+#search .submit { position: relative; width: 26px !important; height: 24px; background: url('../images/bg-submit.gif') no-repeat; border: none !important; padding: 0; left: -4px; } 
+
+/* -- Right (submenu) block -- */
+#menuBlock                      { width: 285px; float: right; margin-top: 25px; background: url('../images/bg-right.gif') 100% 0 repeat-y; }
+#menuBlock .box                 { margin-bottom: 30px; padding-left: 12px; }
+#menuBlock .firstBox            { position: relative; top: -25px; margin-bottom: 5px; background: url('../images/bg-right_block.gif') 0 26px no-repeat; }
+#menuBlock .box h3              { margin-bottom: 11px; padding-left: 15px; color: #af0731; }
+#menuBlock .boxText             { padding: 0 27px; }
+#menuBlock .boxText h3          { padding-left: 0 !important; }
+#menuBlock .subMenu li a        { display: block; height: 23px; padding: 8px 5px 0 32px; color: #000; text-decoration: none; background: url('../images/bg-submenu_item.gif') no-repeat; }
+#menuBlock .subMenu li a:hover,
+#menuBlock .subMenu li.active a { background-color: #efefef; background-position: 0 -31px; text-decoration: none !important; }
+
+/* -- Left (content) block -- */
+#contentBlock                   { float: left; width: 530px; padding: 0 30px 0 40px; }
+#contentBlock img               { margin: 3px; }
+#contentBlock p,
+#contentBlock ul,
+#contentBlock ol,
+#contentBlock table             { margin-bottom: 2em; }
+#contentBlock table td,
+#contentBlock table th          { border: 1px #d8d8d8 solid; padding: 10px; }
+#contentBlock table tr.add td,
+#contentBlock table tr.add th   { background: url('../images/bg-table_line.gif') repeat-x; }
+
+/* -- Lists -- */
+#contentBlock ul,
+#contentBlock ol,
+#menuBlock .boxText ul,
+#menuBlock .boxText ol          { padding-left: 10px; }
+#contentBlock ol,
+#menuBlock .boxText ol          { padding-left: 17px; }
+#contentBlock ul *,
+#contentBlock ol *,
+#menuBlock .boxText ul *,
+#menuBlock .boxText ol *        { margin-bottom: 0 !important; }
+#contentBlock ul li,
+#menuBlock .boxText ul li       { margin: 3px 0; padding-left: 16px; background: url('../images/ico/ico-list_item.gif') 0 4px no-repeat; }
+#contentBlock ol li,
+#menuBlock .boxText ol li       { margin: 3px 0 3px 10px; padding: 0; background: none; list-style: decimal; }
+
+/* -- Footer part -- */
+#foot p       { padding: 27px 15px 0; }
+#foot *       { color: #8a817e; }
+#foot a:hover { color: #fff; }

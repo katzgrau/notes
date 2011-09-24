@@ -1,0 +1,28 @@
+span.tt {
+
+}
+
+span.tt:hover {
+	position: relative;
+	cursor: help;
+}
+
+span.tt span {
+	display: none;
+}
+
+span.tt:hover span {
+	color:black;
+	font-family: Georgia;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+   	position: absolute; top: 12px; left: 0;
+	/* formatting only styles */
+   	padding: 5px; margin: 10px; z-index: 100;
+   	background: lightyellow;
+	width: 250px;
+	/* opacity: 0.9; */
+	/* end formatting */
+}

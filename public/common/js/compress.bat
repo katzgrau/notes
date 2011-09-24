@@ -1,0 +1,1 @@
+for %i in (*.js) do type %i | Jazmin > %i

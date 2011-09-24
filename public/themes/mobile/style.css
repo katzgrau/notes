@@ -1,0 +1,36 @@
+body
+{
+	font-family: arial,sans-serif;
+	font-size: 2.1em; 
+	margin: 0;
+	padding: 0;
+	background-color: #E0EDF5;
+}
+
+#header
+{
+	background-color: #738FB6;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#sub-heading
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	background-color: #A0C2EF;
+	color: black;
+}
+
+a {
+	color: #4D96EA;
+}

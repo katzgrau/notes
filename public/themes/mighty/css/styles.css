@@ -1,0 +1,369 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title :   Mighty Template
+Author :  James Broad
+URL :     kulor.com
+
+Created : 01.06.2006 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- CSS ----- */
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+body, html{
+    margin:0;
+    padding:0;
+    background:#e7e7e7;
+    text-align:center;
+    margin-bottom:10px;
+}
+a{
+    color:#87B220;
+    text-decoration:underline;
+}
+    a:hover{
+        color:#717171;
+        text-decoration:none;
+    }
+
+/* ----- IDS ----- */
+
+#container{
+    width:780px;
+    margin:10px auto;
+    padding:0;
+    background:#fff;
+    text-align:left;
+}
+
+/* ----- HEADER ----- */
+
+#logo{
+    margin:0;
+    padding:0;
+}
+
+#logo #box{
+    float:left;
+    clear:none;
+    height:40px;
+    width:40px;
+    margin:0;
+    padding:0;
+    background:#394E06;
+    color:#87B220;
+    font-family:'Times New Roman';
+    font-weight:bold;
+    font-size:15px;
+    line-height:40px;
+    letter-spacing:-2px;
+    text-indent:-2px;   
+}
+#logo p{
+    float:left;
+    clear:none;
+    height:40px;
+    /*width:40px; */
+    margin:0;
+    padding:0;
+    color:#394E06;
+    font-family:'Georgia';
+    font-weight:normal;
+    font-size:20px;
+    text-indent:2px;
+    line-height:43px;
+    letter-spacing:-2px;
+}
+
+.subContainer, #navigation ul{
+    width:780px;
+    margin:0 auto;    
+}
+#header{
+    text-align:left;
+    margin:0;
+    padding:30px 0 0 10px;
+    height:64px;
+    background:#87b220;
+}
+#banner{
+    margin:0;
+    padding:0;
+    padding-bottom:5px;
+    background:#e7e7e7;
+}
+
+/* ----- NAVIGATION ----- */
+
+#navigation{
+    margin:0;
+    padding:0;
+    background:#7fa71f;
+    height:34px;
+    list-style:none;
+}
+    #navigation li{
+        float:left;
+        clear:none;
+        list-style:none;
+    }
+    #navigation li a{
+        color:#fff;
+        display:block;
+        font-size:12px;
+        text-decoration:none;
+        font-weight:bold;
+        padding:10px 18px;
+    }
+    #navigation li a:hover{
+        color:#fff;
+        background:#739B1F;
+    }
+    #active a{
+        background:url('../images/nav_bg.gif');
+    }
+
+/* ----- HEADINGS ----- */
+
+h1{
+    text-indent:-80000px;
+    background:url('../images/logo.gif') no-repeat;
+    height:35px;
+    width:168px;
+}
+h2{
+    font-family:'Georgia';
+    font-size:25px;
+    letter-spacing:-1px;
+    margin-top:15px;
+    margin-bottom:20px;
+    font-weight:normal;
+    color:#718e3e;
+}
+h3{
+    font-size:11px;
+    font-weight:bold;
+    color:#666;
+    margin:5px 0;
+    
+}
+
+/* ----- PARAGRAPHS ----- */
+
+p{
+    color:#043f4a;
+    font-size:11px;    
+    line-height:25px;
+}
+#primaryContent ul{
+    color:#043f4a;
+    font-size:11px;    
+    margin:20px 0;
+    list-style:none; 
+}
+#primaryContent li{    
+    padding-left:25px;
+    margin:8px 0;
+    list-style:none;
+    background:url('../images/content_bullet.png') left bottom no-repeat;
+}
+#secondaryContent p{
+    
+}
+
+/* ----- FORMS ----- */
+
+input{
+    background-color: #FFF;
+    color: #999999;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    padding: 3px;
+    width:160px;              
+}
+button{
+    background-color:#EFEFEF;
+    line-height:11px;
+    color: #000;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    height:20px;
+    margin: 0;
+    padding: 0 5px;
+}
+form p{
+    padding:2px 0;
+}
+
+/* ----- IMAGES ----- */
+
+img{
+    border:0;
+}
+img a{
+    border:0;
+    text-decoration:none;
+}
+img a:hover{
+    border:none;
+}
+
+/* ----- CONTENT ----- */
+
+#primaryContent{
+    width:406px;
+    padding:20px 55px;
+    border-right:5px solid #e7e7e7;
+    font-size:11px;
+    float:left;
+    clear:none; 
+}
+    #primaryContent img{
+        float:right;
+        clear:none;
+        margin:10px;
+        margin-right:0;
+        padding:1px;
+        border: 1px solid #E7E7E7;
+    }
+#secondaryContent{
+    width:228px;
+    padding:10px 14px;
+    font-size:11px;
+    float:right;
+    clear:none; 
+}
+#secondaryContent h2{
+    padding:11px 15px;
+    background:url('../images/images/intro_bg.gif') no-repeat;
+    color:#fff;
+    margin-bottom:0;
+    line-height:21px;
+    font-size:13px;
+    font-weight:normal;
+}
+#secondaryContent h3{
+    color:#87b220;
+    margin-top:20px;
+}
+#secondaryContent ul{
+    list-style:none;
+}
+#secondaryContent li{
+    list-style:none;
+    padding-left:20px;
+    margin:8px 0;
+    background:url('../images/tiny_bullet.png') left bottom no-repeat;
+}
+#secondaryContent li a{
+    color:#575757;
+    font-weight:bold;
+    text-decoration:none;
+}
+#secondaryContent li a:hover{
+    color:#E7E7E7;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#secondaryContent .links li{
+    padding-left:0px;
+    margin:8px 0;
+    background:none;
+}
+
+/* ----- COMMENTS ----- */
+
+#comments{
+    margin:15px 0;    
+}
+    #comments #status{
+        color:#546d17;
+        background:#f8f8f8;
+        border:2px solid #ececec;
+        padding:10px;
+        margin-bottom:15px;    
+    }
+        #comments #status dd, #comments #status dt{
+            display:inline;
+        }
+    #comments a{
+        color:#546d17;
+        font-weight:bold;
+        text-decoration:none; 
+    }
+    #comments a:hover{
+        color:#666;
+        text-decoration:underline; 
+    }
+    #comments .comment{
+        padding:10px 5px;
+        border-top:3px solid #7fa71f;  
+    }
+        #comments .comment dt{
+            float:left;
+            clear:none;
+        }
+        #comments .comment dd{
+            clear:both;
+            color:#656565;
+            line-height:20px;
+            font-size:10px;
+            margin-bottom:10px;
+        }
+        #comments .comment .date{
+            float:left;
+            clear:none;
+            margin-left:5px;
+            line-height:12px;
+            font-size:11px;
+            color:#585858;
+        }
+
+/* ----- FOOTER ----- */
+
+#footer{
+    margin:0 auto;
+    margin-bottom:10px;
+    height:10px;
+    padding:18px 20px;
+    clear:both;
+    width:740px;
+    text-align:left;
+    font-size:10px;
+    color:#484848;
+    background:#f4f4f4;
+}
+    #footer ul{
+        list-style:none;    
+    }
+    #footer li{
+        list-style:none;
+        display:inline;    
+    }
+    #footer #copyright{
+        float:left;
+        clear:none;
+    }
+    #footer #links{
+        float:right;
+        clear:none;
+    }
+    #footer a{
+        color:#606060;
+        text-decoration:none;
+    }
+    #footer a:hover{
+        color:#ccc;
+        text-decoration:underline;
+    }
+
+/* ----- CLASSES ----- */
+
+.clear{
+    clear:both;
+}
